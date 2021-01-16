@@ -7,11 +7,16 @@
     </v-app-bar>
 
     <v-main class="mt-5">
-      <!-- Stuff will go here -->
+      <Phonebook />
     </v-main>
   </v-app>
 </template>
 
 <script>
-export default {};
+import Phonebook from "./components/Phonebook.vue";
+export default {
+  components: {
+    Phonebook
+  }
+};
 </script>
